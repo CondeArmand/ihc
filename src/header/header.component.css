@@ -1,0 +1,15 @@
+.container {
+  background-color: #f5fbff;
+  width: 100%;
+  height: 5rem;
+  margin: 0;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+}
+
+.img-logo {
+  width: 100%;
+  height: 100%;
+  left: 10rem;
+}
