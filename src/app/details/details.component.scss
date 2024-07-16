@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  background-color: #222227;
+
+  .firstItem, .secondItem, .thirdItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .firstItem {
+    gap: 1rem;
+    margin: 1rem 0 1rem 1rem;
+
+    img {
+      width: 50%;
+    }
+
+    .description {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      p {
+        color: aliceblue;
+
+        font-size: 2rem;
+      }
+    }
+  }
+}
